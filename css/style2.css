@@ -1,0 +1,95 @@
+
+
+body {
+    width: 686px;
+    height: 232px;
+}
+
+.table-title {
+    height: 38px;
+    font-size: 11px;
+    background-color: #F8F8F8;
+    display: flex;
+}
+
+thead {
+    background-color: #EEEEEE ;
+}
+
+div {
+    height: 28px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+p {
+    font-weight: 600;
+    font-size: 11px;
+}
+
+span {
+    color: #03439B;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse; 
+}
+
+th, td, tr {
+    border-collapse: collapse;
+    border: 1px solid #CCCCCC;
+    /* padding: 10px 10px ; */
+    text-align: center;
+    font-size: 11px;
+    color: #333333;
+    padding: 0px;
+}
+
+th{
+    width: 100px;
+    height: 36px;
+}
+
+td {
+    width: 100px;
+    height: 28px;
+    color: #333333;
+}
+
+.check-img {
+    width: 18px;
+    height: 18px;
+    justify-content: center;
+    margin: 0 auto;
+    display: block;
+
+}
+
+.condition {
+    background-color: #F8F8F8;
+}
+
+.close-button {
+    width: 60px;
+    height: 24px;
+    font-weight: 500px;
+    font-size: 11px;
+    border-radius: 3px;
+    border: 1px solid #CCCCCC;
+    background-color: white;
+    color: #777777;
+    float: right;
+    margin-top: 15px;
+    cursor: pointer;
+    .close-button:hover {
+       border: #03439B;
+    }
+}
+
+.main-title {
+    width: 202px;
+    height: 15px;
+    font-weight: 700px;
+    font-size: 15px;
+}
